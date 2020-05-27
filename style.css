@@ -1,0 +1,22 @@
+*{margin:0; padding:0; outline:0}
+body{font-family:arial; font-size:18px;line-height:20px;color:#000;}
+
+
+
+.templete{width:960px; margin:0 auto; }
+
+.headersection{height:85px;background:#5E3F44;color:#fff}
+.headersection h2{font-size:25px; text-align: center; padding-top:15px}
+
+
+.navigation{height:25px; background:#123544; color:#fff}
+.navigation h2{font-size:15px; text-align: center; padding-top:3px}
+
+.contain{}
+.maincontain{}
+.maincontain p{}
+.sidebar{}
+.sidebar p{}
+.footer{}
+.footer p{}
+ 
