@@ -3,7 +3,7 @@ body{font-family:arial; font-size:18px;line-height:20px;color:#000;}
 
 
 
-.templete{width:960px ; margin:0 auto; }
+.templete{width:1460px ; margin:0 auto; }
 .clear{overflow:hidden}
 
 .headersection{height:85px;background:#5E3F44;color:#fff}
@@ -32,8 +32,56 @@ color:black;
  
 
 .contain{background:gray}
-.maincontain{width:500px;float:left;background:black;padding:10px; margin:10px; margin-left:0;}
-.maincontain p{color:white ; font-size:25px; margin-bottom:92px}
+.maincontain{
+width:1000px;
+float:left;
+background:#37475B;
+padding:10px; 
+margin:10px;
+margin-left:0;
+color:white;
+}
+.samepost {
+}
+.samepost h2 {
+font-size:24px;
+color:white;
+padding:10px  ;
+margin: 5px;
+margin-left:0;
+background:gray;
+
+}
+.samepost img {
+ 
+width:300px;
+float:left;
+margin-right:10px;
+padding:1px;
+background:white;
+border:1px solid #808080;
+}
+.samepost p{
+font-size:20px;
+line-height:24px;
+text-align:justify;
+}
+.readmore{float:right;}
+.readmore a{
+color:powderblue;
+text-decoration:none;
+background:gray;
+padding:3px ;
+display:block;
+margin:5px;
+border-radius:3px;
+
+}
+.readmore a:hover{
+color:gray ;
+background:powderblue;
+}
+ 
 
 .sidebar{float:right; width:400px; background:#123544; margin:10px; padding:10px;margin-right:0}
 .sidebar p{color:green;}
