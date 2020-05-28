@@ -3,20 +3,43 @@ body{font-family:arial; font-size:18px;line-height:20px;color:#000;}
 
 
 
-.templete{width:960px; margin:0 auto; }
+.templete{width:960px ; margin:0 auto; }
+.clear{overflow:hidden}
 
 .headersection{height:85px;background:#5E3F44;color:#fff}
 .headersection h2{font-size:25px; text-align: center; padding-top:15px}
 
 
-.navigation{height:25px; background:#123544; color:#fff}
-.navigation h2{font-size:15px; text-align: center; padding-top:3px}
+.navigation{height: ; background:#B49C80; color:#fff}
+.navigation  ul{margin:0; padding:0; list-style:none;}
+.navigation ul li{float:left; display:block;}
 
-.contain{}
-.maincontain{}
-.maincontain p{}
-.sidebar{}
-.sidebar p{}
-.footer{}
-.footer p{}
+.navigation ul li  a{
+display:block;
+background:#444D50 ;
+border:5px solid #B49C80;
+text-decoration:none;
+color:white;
+margin: ;
+padding:5px 25px;
+font-size:20px;
+}
+.navigation ul li a:hover{
+background:green;
+color:black;
+}
+
+ 
+
+.contain{background:gray}
+.maincontain{width:500px;float:left;background:black;padding:10px; margin:10px; margin-left:0;}
+.maincontain p{color:white ; font-size:25px; margin-bottom:92px}
+
+.sidebar{float:right; width:400px; background:#123544; margin:10px; padding:10px;margin-right:0}
+.sidebar p{color:green;}
+.sidebar h2{color:white; margin-bottom:1px; text-align:center; padding:10px; border-bottom:2px solid #FF5739;}
+.sidebar hr{margin-bottom:10px;margin-top:5px}
+
+.footer{height:50px; background:#5E3F44; color:#fff}
+.footer p{font-size:25px; text-align:center; padding-top:15px; font-weight:bold}
  
