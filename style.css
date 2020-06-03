@@ -89,8 +89,7 @@ width:1000px;
 float:left;
 background:#37475B;
 padding:10px; 
-margin:9px;
-margin-left:0;
+ margin-left:0;
 color:white;
 border:1px solid black;
 }
@@ -138,7 +137,7 @@ background:powderblue;
 }
  
 
-.sidebar{float:right; width:400px; background:#123544; margin:8px; padding:8px;
+.sidebar{float:right; width:400px; background:#123544; margin:0px; padding:8px;
 margin-right:0; border:1px solid black;}
 .sidebar p{color:green;}
 .sidebar h2{color:white; margin-bottom:1px; text-align:center; padding:10px; border-bottom:2px solid #FF5739;}
