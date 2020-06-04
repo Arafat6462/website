@@ -96,14 +96,13 @@ border:1px solid black;
 
 
 .about{}
-.about img{
-  float: left;
-  width: 400px;
-  margin-right: 10px;
-  border :1px solid white;
- 
-
- }
+.about img {
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+    border: 1px solid white;
+    height: 200px;
+}
 .about p{
   font-size: 16px;
   line-height: 22px;
