@@ -1,10 +1,39 @@
 *{margin:0; padding:0; outline:0}
-body{font-family:arial; font-size:18px;line-height:20px;color:#000;}
+body{font-family:arial; font-size:18px;line-height:20px;color:#000; background: url(images/background.jpg)repeat scroll   0 0 #D3D3D3;}
 
 
 
 .templete{width:1460px ; margin:0 auto; }
 .clear{overflow:hidden}
+input[type="text"], input[type="email"]{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #39c2ff;
+    border-radius: 5px;
+}
+textarea {
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    border: 2px solid #39c2ff;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: #0F7E85;
+    border: 1px solid #58a9cd;
+    padding: 5px 21px;
+    float: right;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+  color: black;
+
+}
+
 
 .headersection{
     background:#007E85;
@@ -68,10 +97,11 @@ body{font-family:arial; font-size:18px;line-height:20px;color:#000;}
     border-radius:5px;
     
 }
-.navigation ul li a:hover{
+.navigation ul li a:hover,#active{
 background:green;
 color:black;
 }
+ 
 
 .slidersection{
     margin-bottom: 15px;
