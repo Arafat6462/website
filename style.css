@@ -93,9 +93,30 @@ padding:10px;
 color:white;
 border:1px solid black;
 }
+
+
+.about{}
+.about img{
+  float: left;
+  width: 400px;
+  margin-right: 10px;
+  border :1px solid white;
+ 
+
+ }
+.about p{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+ 
+
+
+
 .samepost {
 }
-.samepost h2 {
+.samepost h2 ,.about h2{
 font-size:24px;
 color:white;
 padding:5px  ;
@@ -142,6 +163,39 @@ margin-right:0; border:1px solid black;}
 .sidebar p{color:green;}
 .sidebar h2{color:white; margin-bottom:1px; text-align:center; padding:10px; border-bottom:2px solid #FF5739;}
 .sidebar hr{margin-bottom:10px;margin-top:5px}
+
+.anothersidebar1{
+border: 1px solid  black ;
+padding-bottom: 80px;
+}
+.anothersidebar1 h2{
+  color: gray;
+
+}
+.anothersidebar1 ul{
+  padding: 0;
+  margin:0;
+  list-style: none;
+ 
+  
+}
+.anothersidebar1 ul li{
+  background: #647C72;
+  padding: 3px 20px;
+  border-bottom: 1px dashed #133544;
+  padding-left:2px;
+}
+.anothersidebar1 ul li:last-child { border-bottom: 0px dashed #133544;}
+
+.anothersidebar1 ul li a{
+  text-decoration: none;
+  color: #000134;
+
+  
+}
+.anothersidebar1 ul li a:hover{
+  color: white;
+}
 
 .footer{
   height:80px; 
