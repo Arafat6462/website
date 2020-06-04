@@ -190,7 +190,13 @@ background:powderblue;
 .sidebar{float:right; width:400px; background:#123544; margin:0px; padding:8px;
 margin-right:0; border:1px solid black;}
 .sidebar p{color:green;}
-.sidebar h2{color:white; margin-bottom:1px; text-align:center; padding:10px; border-bottom:2px solid #FF5739;}
+.sidebar h2 {
+    color: #6b2d0a;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #FF5739;
+}
 .sidebar hr{margin-bottom:10px;margin-top:5px}
 
 .anothersidebar1{
@@ -198,7 +204,7 @@ border: 1px solid  black ;
 padding-bottom: 80px;
 }
 .anothersidebar1 h2{
-  color: gray;
+  color:  #e16231;
 
 }
 .anothersidebar1 ul{
@@ -225,11 +231,38 @@ padding-bottom: 80px;
 .anothersidebar1 ul li a:hover{
   color: white;
 }
+.anothersidebar2 h2{
+  color:#FF5535 ;
+  text-decoration: none;
+}
+
+.popular{
+ }
+.popular h3 a{
+    font-size: 20px;
+    color: #b4ca5d;
+    margin-bottom: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+ }
+.popular img {
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #f8e1b8;
+    border-radius: 2px;
+}
+.popular p{
+text-align: justify;
+ }
+
 
 .footer{
   height:80px; 
   background:#007E85; 
-  color:#fff
+  color:#ff
  }
 .footer p{
     text-align:center;
