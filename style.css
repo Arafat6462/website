@@ -125,7 +125,9 @@ border:1px solid black;
 }
 
 
-.about{}
+.about{
+   
+}
 .about img {
     float: left;
     width: 400px;
@@ -138,7 +140,28 @@ border:1px solid black;
   line-height: 22px;
   margin-bottom: 20px;
   text-align: justify;
+
 }
+.relatedpost{
+}
+
+.relatedpost h2 {
+    background: #3F816B;
+    color: #D6F0FF !important;
+}
+
+.relatedpost img {
+    width: 321px;
+    height: 213px;
+    margin: 5px;
+}
+
+.relatedpost img:hover{
+  opacity: 0.5;
+
+}
+
+
  
 
 
@@ -238,14 +261,15 @@ padding-bottom: 80px;
 
 .popular{
  }
-.popular h3 a{
+.popular h3 a {
     font-size: 20px;
     color: #b4ca5d;
     margin-bottom: 5px;
     display: block;
     text-align: center;
     text-decoration: none;
- }
+    border-bottom: 1px dashed #7f8cc0;
+}
 .popular img {
     height: 50px;
     width: 100px;
