@@ -110,25 +110,25 @@ color:black;
 }
  
 
-.slidersection{
-    margin-bottom: 15px;
-    box-shadow: 0px 7px 3px 0px #333;
-
-
+.slidersection {
+    margin-bottom: 0px;
+    box-shadow: 5px 0px 20px 0px #333;
 }
+
+
 .slider img{
  }
  
 
-.contain{background:gray; }
-.maincontain{
-width:1000px;
-float:left;
-background:#37475B;
-padding:10px; 
- margin-left:0;
-color:white;
-border:1px solid black;
+.contain{background:#98a5ab; }
+.maincontain {
+    width: 1018px;
+    float: left;
+    background: #37475B;
+    padding: 10px;
+    margin-left: 0;
+    color: white;
+    border: 1px solid black;
 }
 
 
