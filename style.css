@@ -86,12 +86,14 @@ input[type="submit"]:hover{
     height: ;
     background: #123544;
     color: #fff;
+    min-height: 36px;
 }
 
 .navigation  ul{margin:0; padding:0; list-style:none;}
 .navigation ul li{
   float:left; 
   display:block;
+  position:relative;
 }
 
 .navigation ul li:first-child{margin-left: 3px;}
@@ -114,9 +116,39 @@ input[type="submit"]:hover{
 
  
 .navigation ul li a:hover,#active{
-background:green;
+background:#2CA550;
 color:black;
 }
+
+
+
+
+.navigation ul li ul{
+  position:absolute;
+  left: -99999999999999px
+ }
+
+.navigation ul li:hover ul{
+  left:0px;
+}
+.navigation ul li ul li{
+  background:#406372;
+  color:black;
+  width:200px;
+  margin-left:3px;
+  float: none;
+ 
+ }
+.navigation ul li ul li a{
+  border: none;
+  border-radius:0px;
+  margin:0px;
+  margin-top: 2px;
+ } 
+
+
+
+
  
 
 .slidersection {
@@ -341,6 +373,27 @@ text-align: justify;
  }
 .fixedicon img{
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-under-development p {
+    text-align: center;
+    font-size: 32px;
+    color: #4326db;
+    margin-top: 50px;
+    text-shadow: 3px -1px 20px #493b3b;
 }
 
   
