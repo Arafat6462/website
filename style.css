@@ -74,6 +74,9 @@ input[type="submit"]:hover{
     height: 100px;
     float: right;
  }
+ .social a{
+  font-size:32px;
+ }
  .social img{
     height: 65px;
     width: 65px;
